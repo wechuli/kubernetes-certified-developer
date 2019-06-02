@@ -1,0 +1,19 @@
+{
+  "name": "multi-container",
+  "version": "1.0.0",
+  "description": "node app for redis",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pw"
+  ],
+  "author": "wechuli",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "redis": "^2.8.0"
+  }
+}
